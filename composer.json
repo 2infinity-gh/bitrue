@@ -1,0 +1,22 @@
+{
+    "name": "2infinity-gh/bitrue-php",
+    "type": "library",
+    "description": "Bitrue API Like the official document interface, Support for arbitrary extension.",
+    "license": "MIT",
+    "keywords": ["bitrue", "binance", "okex", "huobi","kucoin","kumex","mexc","mxc"],
+    "authors": [
+        {
+            "name": "2infinity-gh",
+            "email": "2inf@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Infin\\Bitrue\\": "./src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "*"
+    }
+}
