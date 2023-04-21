@@ -7,8 +7,7 @@ namespace Infin\Bitrue;
 
 class BitrueSpot
 {
-    protected $key;
-    protected $secret;
+
     protected $passphrase;
     protected $host;
 
